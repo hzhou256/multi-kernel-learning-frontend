@@ -25,11 +25,10 @@
                 (denoted as miRNA).
               </el-descriptions-item>
               <el-descriptions-item label="NcRNA or disease">It indicates whether to perform association prediction on
-                ncRNAs or diseases. Two inputs can be selected: drug or disease.
+                ncRNAs or diseases. Two inputs can be selected: ncRNA or disease.
               </el-descriptions-item>
-              <el-descriptions-item label="Name">The name of a specific drug or disease. It is related with "Dataset"
-                and
-                "NcRNA or disease" options.
+              <el-descriptions-item label="Name">The name of selected ncRNA or disease to be predicted. Please select
+                "Dataset" and "NcRNA or disease" options first.
               </el-descriptions-item>
               <el-descriptions-item label="Number of model layers">Parameters of the model, representing the number of
                 layers of the model. There are two optional inputs, 1 or 2.
@@ -190,7 +189,7 @@ export default {
     submitForm (formName) {
       this.$refs[formName].validate((valid) => {
         if (valid) {
-          this.$confirm('This option will submit request, continue?', {
+          this.$confirm('This operation will submit request, continue?', {
             confirmButtonText: 'Confirm',
             cancelButtonText: 'Cancel',
             type: 'warning'

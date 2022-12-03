@@ -23,9 +23,8 @@
               <el-descriptions-item label="Drug or disease">It indicates whether to perform association prediction on
                 drugs or diseases. Two inputs can be selected: drug or disease.
               </el-descriptions-item>
-              <el-descriptions-item label="Name">The name of a specific drug or disease. It is related with "Dataset"
-                and
-                "Drug or disease" options.
+              <el-descriptions-item label="Name"> The name of selected drug or disease to be predicted. Please select
+                "Dataset" and "Drug or disease" options first.
               </el-descriptions-item>
             </el-descriptions>
           </div>
@@ -147,7 +146,7 @@ export default {
     submitForm (formName) {
       this.$refs[formName].validate((valid) => {
         if (valid) {
-          this.$confirm('This option will submit request, continue?', {
+          this.$confirm('This operation will submit request, continue?', {
             confirmButtonText: 'Confirm',
             cancelButtonText: 'Cancel',
             type: 'warning'

@@ -9,7 +9,7 @@
           <div style="padding: 14px;text-align:center;">
             <span>Detecting Drug-Disease Association</span>
             <div class="bottom clearfix">
-              <p class="time">2022-12-2</p>
+              <p class="time">2022-12-3</p>
               <el-button type="primary" round class="button" @click="pushDrug">Select</el-button>
             </div>
           </div>
@@ -23,7 +23,7 @@
           <div style="padding: 14px;text-align:center;">
             <span>Detecting Non-coding RNAs-Disease Association</span>
             <div class="bottom clearfix">
-              <p class="time">2022-4-9</p>
+              <p class="time">2022-12-3</p>
               <el-button type="primary" round class="button" @click="pushRNA">Select</el-button>
             </div>
           </div>
