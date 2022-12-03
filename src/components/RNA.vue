@@ -65,7 +65,7 @@
             </el-form-item>
 
             <el-form-item label="Name" prop="num" required>
-              <el-select v-model="ruleForm.num" placeholder="Please select num" style="display: block;" filterable
+              <el-select v-model="ruleForm.num" placeholder="Please select name" style="display: block;" filterable
                          clearable>
                 <el-option v-for="(item, index) in num" :key="index" :label="item" :value="item"></el-option>
               </el-select>
