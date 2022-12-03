@@ -1,5 +1,5 @@
-# my_blog
-个人博客主页网站，前端vue+elementUI，后端采用NodeJs
+# Multi-kernel-learning
+Multi-kernel-learning front service，vue+elementUI
 ## Project setup
 ```
 npm install
