@@ -66,7 +66,7 @@
           <el-col :span="24">
             <a>
               <p style="text-align: center;color: #005187;"><!-- 北洋蓝 -->
-                Copyright：School of Computer Science and Technology, TianJin University. All Rights Reserved.</p>
+                Copyright：School of Computer Science and Technology, Tianjin University. All Rights Reserved.</p>
             </a>
           </el-col>
         </el-row>
