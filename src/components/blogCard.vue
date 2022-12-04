@@ -45,8 +45,8 @@
               association between drugs and diseases.</p>
             <p style="line-height: 22px"><span style="font-weight:bold">Keywords: </span>Drug-disease association, Low-rank matrix factorization,
               Multi-graph regularization, Laplacian</p>
-            <p style="line-height: 22px"><span style="font-weight:bold">Authors: </span>Chengwei Ai, Hongpeng Yang, Yijie Ding*, Jijun Tang, Fei
-              Guo*</p>
+<!--            <p style="line-height: 22px"><span style="font-weight:bold">Authors: </span>Chengwei Ai, Hongpeng Yang, Yijie Ding*, Jijun Tang, Fei-->
+<!--              Guo*</p>-->
           </div>
           <el-divider></el-divider>
           <div>
@@ -65,67 +65,67 @@
               association are obtained.</p>
             <p style="line-height: 22px"><span style="font-weight:bold">Keywords: </span>Non-coding RNAs, Diseases, Deep multiple kernel learning
             </p>
-            <p style="line-height: 22px"><span style="font-weight:bold">Authors: </span>Chengwei Ai, Hongpeng Yang, Yijie Ding*, Jijun Tang, Fei
-              Guo*</p>
-            <p style="line-height: 22px"><span style="font-weight:bold">Citation: </span>Ai, Chengwei & Yang, Hongpeng & Ding, Yijie & Tang, Jijun
-              & Guo, Fei. (2022). A multi-layer multi-kernel
-              neural network for determining associations between non-coding RNAs and diseases. Neurocomputing. 493.
-              <el-link href="https://doi.org/10.1016/j.neucom.2022.04.068">
-                10.1016/j.neucom.2022.04.068
-              </el-link>
-            </p>
-            <p style="line-height: 22px"><span style="font-weight:bold">Codes and datasets: </span>The datasets, codes and corresponding materials
-              are available at
-              <el-link href="https://github.com/guofei-tju/MLMKDNN">
-                https://github.com/guofei-tju/MLMKDNN
-              </el-link>
-            </p>
+<!--            <p style="line-height: 22px"><span style="font-weight:bold">Authors: </span>Chengwei Ai, Hongpeng Yang, Yijie Ding*, Jijun Tang, Fei-->
+<!--              Guo*</p>-->
+<!--            <p style="line-height: 22px"><span style="font-weight:bold">Citation: </span>Ai, Chengwei & Yang, Hongpeng & Ding, Yijie & Tang, Jijun-->
+<!--              & Guo, Fei. (2022). A multi-layer multi-kernel-->
+<!--              neural network for determining associations between non-coding RNAs and diseases. Neurocomputing. 493.-->
+<!--              <el-link href="https://doi.org/10.1016/j.neucom.2022.04.068">-->
+<!--                10.1016/j.neucom.2022.04.068-->
+<!--              </el-link>-->
+<!--            </p>-->
+<!--            <p style="line-height: 22px"><span style="font-weight:bold">Codes and datasets: </span>The datasets, codes and corresponding materials-->
+<!--              are available at-->
+<!--              <el-link href="https://github.com/guofei-tju/MLMKDNN">-->
+<!--                https://github.com/guofei-tju/MLMKDNN-->
+<!--              </el-link>-->
+<!--            </p>-->
           </div>
         </el-card>
       </el-col>
     </el-row>
 
-    <el-row type="flex" justify="center">
-      <el-col :span="12" :xs="{span:24}">
-        <el-card class="box-card">
-          <div slot="header" class="clearfix">
-            <span><h3>Contact</h3></span>
-          </div>
-          <el-descriptions title="Dr. Fei Guo">
-            <el-descriptions-item label="Email">guofeieileen@163.com</el-descriptions-item>
-            <el-descriptions-item label="Address">School of Computer Science and Engineering, Central South University.,
-              Quzhou, Changsha, 410083, P.R.China.
-            </el-descriptions-item>
-          </el-descriptions>
-          <el-descriptions title="Dr. Jijun Tang">
-            <el-descriptions-item label="Email">jj.tang@siat.ac.cn</el-descriptions-item>
-            <el-descriptions-item label="Address">Yangtze Delta Region Institute (Quzhou), University of
-              Electronic Science and Technology of China, Quzhou, 324000, P.R.China.
-            </el-descriptions-item>
-          </el-descriptions>
-          <el-descriptions title="Dr. Yijie Ding">
-            <el-descriptions-item label="Email">wuxi_dyj@163.com</el-descriptions-item>
-            <el-descriptions-item label="Address">
-              Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, 518055, P.R.China.
-            </el-descriptions-item>
-          </el-descriptions>
-          <el-descriptions title="Dr. Hongpeng Yang">
-            <el-descriptions-item label="Email">hpyang6107@163.com</el-descriptions-item>
-            <el-descriptions-item label="Address">
-              Department of Computer Science and Engineering, University of South Carolina, South Carolina, United
-              States.
-            </el-descriptions-item>
-          </el-descriptions>
-          <el-descriptions title="Dr. Chengwei Ai">
-            <el-descriptions-item label="Email">ai_chery@163.com</el-descriptions-item>
-            <el-descriptions-item label="Address">
-              School of Computer Science and Technology,
-              College of Intelligence and Computing, Tianjin University, Tianjin, 300072, P.R.China.
-            </el-descriptions-item>
-          </el-descriptions>
-        </el-card>
-      </el-col>
-    </el-row>
+<!--    <el-row type="flex" justify="center">-->
+<!--      <el-col :span="12" :xs="{span:24}">-->
+<!--        <el-card class="box-card">-->
+<!--          <div slot="header" class="clearfix">-->
+<!--            <span><h3>Contact</h3></span>-->
+<!--          </div>-->
+<!--          <el-descriptions title="Dr. Fei Guo">-->
+<!--            <el-descriptions-item label="Email">guofeieileen@163.com</el-descriptions-item>-->
+<!--            <el-descriptions-item label="Address">School of Computer Science and Engineering, Central South University.,-->
+<!--              Quzhou, Changsha, 410083, P.R.China.-->
+<!--            </el-descriptions-item>-->
+<!--          </el-descriptions>-->
+<!--          <el-descriptions title="Dr. Jijun Tang">-->
+<!--            <el-descriptions-item label="Email">jj.tang@siat.ac.cn</el-descriptions-item>-->
+<!--            <el-descriptions-item label="Address">Yangtze Delta Region Institute (Quzhou), University of-->
+<!--              Electronic Science and Technology of China, Quzhou, 324000, P.R.China.-->
+<!--            </el-descriptions-item>-->
+<!--          </el-descriptions>-->
+<!--          <el-descriptions title="Dr. Yijie Ding">-->
+<!--            <el-descriptions-item label="Email">wuxi_dyj@163.com</el-descriptions-item>-->
+<!--            <el-descriptions-item label="Address">-->
+<!--              Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, 518055, P.R.China.-->
+<!--            </el-descriptions-item>-->
+<!--          </el-descriptions>-->
+<!--          <el-descriptions title="Dr. Hongpeng Yang">-->
+<!--            <el-descriptions-item label="Email">hpyang6107@163.com</el-descriptions-item>-->
+<!--            <el-descriptions-item label="Address">-->
+<!--              Department of Computer Science and Engineering, University of South Carolina, South Carolina, United-->
+<!--              States.-->
+<!--            </el-descriptions-item>-->
+<!--          </el-descriptions>-->
+<!--          <el-descriptions title="Dr. Chengwei Ai">-->
+<!--            <el-descriptions-item label="Email">ai_chery@163.com</el-descriptions-item>-->
+<!--            <el-descriptions-item label="Address">-->
+<!--              School of Computer Science and Technology,-->
+<!--              College of Intelligence and Computing, Tianjin University, Tianjin, 300072, P.R.China.-->
+<!--            </el-descriptions-item>-->
+<!--          </el-descriptions>-->
+<!--        </el-card>-->
+<!--      </el-col>-->
+<!--    </el-row>-->
   </div>
 </template>
 
